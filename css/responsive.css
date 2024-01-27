@@ -1,0 +1,203 @@
+@media (max-width: 1023px) {
+  .content {
+    display: block;
+    margin-left: 0;
+  }
+
+  .content_text {
+    text-align: center;
+    margin: 5rem 0;
+  }
+  .content_details p {
+    width: 100%;
+  }
+
+  .features {
+    display: block;
+  }
+  .features p {
+    width: 100%;
+  }
+
+  .snippets,
+  .preview {
+    margin-left: 0;
+    margin-top: 64px;
+  }
+
+  #brands img {
+    width: 112px;
+  }
+
+  .brands_img {
+    padding: 0 30px;
+  }
+
+  .footer_help {
+    transform: translateX(0%);
+    padding: 0 25px;
+  }
+
+  .footer_logo img {
+    width: 45px;
+  }
+  .footer_help ul {
+    row-gap: 10px;
+  }
+
+  .footer_social a img {
+    width: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  #header .header_content .logo {
+    margin-bottom: 3em;
+  }
+  #header {
+    margin-bottom: 70px;
+  }
+
+  #header .header_content {
+    margin: 50px 0px;
+  }
+
+  #header .header_content .logo img {
+    width: 100px;
+  }
+
+  .header_text h3 {
+    font: var(--titles);
+  }
+
+  .header_text p {
+    width: 100%;
+  }
+
+  .header_text .button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header_text .button a {
+    padding: 14px 36px;
+    width: 260px;
+    margin-bottom: 20px;
+  }
+
+  .header_text .button a + a {
+    margin-left: 0px;
+  }
+
+  .text2 h4 {
+    font: var(--titlesMob);
+    margin-bottom: 15px;
+  }
+
+  .text2 p {
+    width: 100%;
+    padding: 0 12px 0px;
+  }
+
+  .content {
+    padding: 0 20px;
+  }
+
+  #devices {
+    padding: 5rem 0;
+  }
+
+  .features {
+    margin: 4rem 0;
+  }
+
+  .snippets,
+  .preview {
+    margin-top: 40px;
+  }
+
+  .brands_img {
+    margin: 6rem 0;
+  }
+
+  .brands_img {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 80px;
+  }
+
+  #brands img {
+    width: 130px;
+  }
+
+  .text1 h3 {
+    font: var(--titlesMob);
+  }
+
+  #clipboard {
+    padding: 0 10px;
+    margin: 6rem 0;
+  }
+
+  .footer_items {
+    display: block;
+    margin: 1rem 0;
+  }
+
+  .footer_logo img {
+    margin-top: 0px;
+  }
+
+  .footer_help {
+    margin: 35px 0;
+  }
+
+  .footer_help ul {
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    row-gap: 25px;
+  }
+}
+
+@media (max-width: 575px) {
+  #header .header_content .logo {
+    margin-bottom: 3em;
+  }
+  #header {
+    padding-top: 80px;
+    margin-bottom: 0px;
+    background-image: url(../images/bg-header-mobile.png);
+  }
+
+  #header .header_content {
+    margin: 15px 0px 80px;
+  }
+
+  .header_text p {
+    padding-bottom: 30px;
+  }
+
+  .text2 p {
+    padding: 0 12px 0px;
+  }
+
+  .content {
+    margin: 5rem 0;
+  }
+
+  .devices_img {
+    margin: 3em 0;
+  }
+
+  .features {
+    margin: 5rem 0;
+  }
+
+  .features p {
+    width: 90%;
+  }
+
+  #clipboard {
+    margin: 5rem 0;
+  }
+}

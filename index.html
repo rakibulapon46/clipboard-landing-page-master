@@ -14,12 +14,14 @@
 
     <title>Frontend Mentor | Clipboard landing page</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/scrollreveal"></script>
   </head>
   <body>
     <header id="header">
@@ -94,25 +96,26 @@
       </section>
       <section id="workflow">
         <div class="wrapper2">
-        <div class="text2">
-          <h4>Supercharge your workflow</h4>
-          <p>We’ve got the tools to boost your productivity.</p>
-        </div>
+          <div class="text2">
+            <h4>Supercharge your workflow</h4>
+            <p>We’ve got the tools to boost your productivity.</p>
+          </div>
 
-        <div class="features">
+          <div class="features">
             <div class="blacklist">
               <img src="./images/icon-blacklist.svg" alt="img" />
               <h6>Create blacklists</h6>
               <p>
-                Ensure sensitive information never makes its way to your clipboard
-                by excluding certain sources.
+                Ensure sensitive information never makes its way to your
+                clipboard by excluding certain sources.
               </p>
             </div>
             <div class="snippets">
               <img src="./images/icon-text.svg" alt="img" />
               <h6>Plain text snippets</h6>
               <p>
-                Remove unwanted formatting from copied text for a consistent look.
+                Remove unwanted formatting from copied text for a consistent
+                look.
               </p>
             </div>
             <div class="preview">
@@ -122,26 +125,29 @@
                 Quick preview of all snippets on your Clipboard for easy access.
               </p>
             </div>
+          </div>
         </div>
-      </div>
       </section>
 
       <section id="brands">
-        <div class="wrapper">
+        <div class="wrapper2">
           <div class="brands_img">
-            <a href="#">
+            <a href="https://about.google/" target="_blank">
               <img src="./images/logo-google.png" alt="img" />
             </a>
-            <a href="#">
+            <a href="https://www.ibm.com/about" target="_blank">
               <img src="./images/logo-ibm.png" alt="img" />
             </a>
-            <a href="#">
+            <a href="https://www.microsoft.com/en-us/about" target="_blank">
               <img src="./images/logo-microsoft.png" alt="img" />
             </a>
-            <a href="#">
+            <a
+              href="https://www.hp.com/us-en/hp-information.html"
+              target="_blank"
+            >
               <img src="./images/logo-hp.png" alt="img" />
             </a>
-            <a href="#">
+            <a href="https://www.vectorstock.com/free-vectors" target="_blank">
               <img src="./images/logo-vector-graphics.png" alt="img" />
             </a>
           </div>
@@ -164,8 +170,8 @@
       </section>
     </main>
 
-    <footer>
-      <div class="wrapper">
+    <footer id="footer">
+      <div class="wrapper2">
         <div class="footer_items">
           <div class="footer_logo">
             <a href="#">
@@ -182,12 +188,16 @@
             </ul>
           </div>
           <div class="footer_social">
-            <a href="#"><img src="./images/icon-facebook.svg" alt="img" /></a>
-            <a href="#"><img src="./images/icon-twitter.svg" alt="img" /></a>
-            <a href="#"><img src="./images/icon-instagram.svg" alt="img" /></a>
+            <a href="#"
+              ><img src="./images/facebook-app-logo.png" alt="img"
+            /></a>
+            <a href="#"><img src="./images/twitter-logo.png" alt="img" /></a>
+            <a href="#"><img src="./images/instagram-logo.png" alt="img" /></a>
           </div>
         </div>
       </div>
     </footer>
+
+    <script src="./js/index.js"></script>
   </body>
 </html>
