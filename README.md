@@ -24,14 +24,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/video.mp4)
 ![](./design/desktop-design.jpg)
 ![](./design/mobile-design.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/rakibulapon46/clipboard-landing-page-master)
-- Live Site URL: [Add live site URL here](https://rakibulapon46.github.io/clipboard-landing-page-master/)
+- Solution URL: [Source Code](https://github.com/rakibulapon46/clipboard-landing-page-master)
+- Live Site URL: [Live Demo](https://rakibulapon46.github.io/clipboard-landing-page-master/)
 
 ## My process
 
