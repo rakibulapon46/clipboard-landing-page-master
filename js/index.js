@@ -1,7 +1,7 @@
 const scrollReveal = ScrollReveal({
   origin: "top",
-  distance: "50px",
-  duration: 700,
+  distance: "100px",
+  duration: 500,
   reset: true,
 });
 
@@ -14,5 +14,5 @@ scrollReveal.reveal(
     #clipboard .text1, #clipboard .buttons,
     #footer .footer_items
     `,
-  { interval: 200 }
+  { interval: 100 }
 );
